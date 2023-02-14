@@ -1,0 +1,68 @@
+
+
+
+#contentContainer {
+	position: relative;
+	width: auto;
+	height: 743px;
+	border: 1px black solid;
+	overflow: hidden;
+	background-image: url("image_print.jpg");
+	background-size: cover;
+}
+
+
+
+#myId {
+    background-image: url("dude.png");
+    background-size:cover;
+    position:relative;
+    width: 140px;
+    height: 200px;
+	left: 50px;
+	top: 300px;
+	transition: left .5s cubic-bezier(.42,-0.3,.78,1.25), 
+			top .5s cubic-bezier(.42,-0.3,.78,1.25);
+}
+
+#acircle {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	position: absolute;
+	border-radius: 50%;
+	background-size: cover;
+	cursor: pointer;
+	left: 1250px;
+	top: 500px;
+	border: 2px white solid;
+}
+
+.text {
+	
+	color:rgb(4, 4, 4);
+    display: inline-block;
+    white-space: nowrap;
+	position: absolute;
+	bottom: 470px;
+	right: 950px;
+	font-size: 150%;
+	background-size: cover;
+	z-index: 1;
+	visibility: hidden;
+}
+
+
+.textbehind {
+	width: 1455px;
+	height: 160px;
+	background-color: rgb(255, 103, 103);
+	position: relative;
+	background-size: cover;
+	right: 1238px;
+	bottom: 480px;
+	opacity: 75%;
+	visibility: hidden;
+	border-radius: 25px;
+	border: 2px black solid;
+}
